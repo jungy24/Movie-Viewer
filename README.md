@@ -7,9 +7,9 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User can view movie details by tapping on a cell.
-- [ ] User can select from a tab bar for either **Now Playing** or **Top Rated** movies.
-- [ ] Customize the selection effect of the cell.
+- [x] User can view movie details by tapping on a cell.
+- [x] User can select from a tab bar for either **Now Playing** or **Top Rated** movies.
+- [x] Customize the selection effect of the cell.
 
 The following **optional** features are implemented:
 
@@ -22,14 +22,14 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. Implementation of scroll views on top of a fixed background
+2. Having the tab views reset when you navigate to another tab
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-![movieview1](https://cloud.githubusercontent.com/assets/21361861/22808533/6d8b518e-eefa-11e6-9657-543bddf7ed62.gif)
+![movietabs](https://cloud.githubusercontent.com/assets/21361861/22889914/b734e616-f1d8-11e6-960b-e1072b950f88.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -37,9 +37,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+I had trouble implementing the icons to the the tab. After experimentation, I learned that the problem was the size of the icons. 
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Jungyoon Yu]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
